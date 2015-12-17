@@ -1,1 +1,0 @@
-<h1>Niet hier meer, gebruik de api /docent/list</h1>
