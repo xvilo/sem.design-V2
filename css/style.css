@@ -1,0 +1,129 @@
+*{
+	font-family: 'Lato', sans-serif;
+	box-sizing: border-box;
+	text-rendering: optimizeLegibility;
+}
+html{height: 100%}
+body{
+	background: #1B1B1B;
+	margin: 0px;
+	padding: 1.5em;
+}
+
+.container{
+	width: 100%;
+	min-height: calc(100vh - 3em);
+	background: white;
+	overflow: auto;
+}
+
+.content{
+	max-width: 470px;
+	margin: 0 auto;
+	padding: 1em
+}
+
+
+footer{background: #1B1B1B;}
+
+section{background: #1B1B1B;}
+section *{color: white;}
+
+h1{
+	font-size: 5em;
+	margin-bottom: 0px;
+}
+
+h6{
+	font-weight: 100;
+	font-weight: 100;
+    margin-top: 0px;
+    font-size: 1.7em;
+    margin-bottom: 30px;
+}
+h6.reverted{    font-size: 25.7647px;
+    margin-bottom: -1em;
+    margin-top: 1em;}
+
+p{line-height: 26px;font-weight: 100; text-align: justify;}
+
+ul.social{list-style-type: none;margin: 0px; padding: 0px;display: flex;justify-content: space-between;margin-top:30px;    margin-bottom: 3em;}
+ul.social li{float: left;}
+ul.social li a{color: white; background: black; display: table-cell; width: 35px; height:35px; vertical-align: middle; text-align: center; border-radius: 25px;}
+ul.social li.twitter:hover a{background:#4099FF;}
+ul.social li.facebook:hover a{background:#3B5998;}
+ul.social li.dribbble:hover a{background:#ea4c89;}
+ul.social li.github:hover a{background:#3F7AC3;}
+ul.social li.product-hunt:hover a{background:#DA562B;}
+ul.social li.steam:hover a{background:#7da10e;}
+ul.social li.spotify:hover a{background:#81b71a;}
+
+ul.portfolio{list-style-type: none;margin: 0px; padding: 0px;margin-top:30px;}
+ul.portfolio li{display: block;}
+ul.portfolio li *{color: #1B1B1B;}
+ul.portfolio li a{background:white; display: block; padding: 1em;margin-bottom: 1em; text-align: center; text-decoration: none;}
+ul.portfolio li a p{text-align: center;}
+
+#lean_overlay {
+    position: fixed;
+    z-index:100;
+    top: 0px;
+    left: 0px;
+    height:100%;
+    width:100%;
+    background: #000;
+    display: none;
+}
+
+#signup {
+	width: 404px;
+	padding-bottom: 2px;
+    display:none;
+    background: #FFF;
+    border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;
+    box-shadow: 0px 0px 4px rgba(0,0,0,0.7); -webkit-box-shadow: 0 0 4px rgba(0,0,0,0.7); -moz-box-shadow: 0 0px 4px rgba(0,0,0,0.7);   
+}
+
+#test {
+    width: 600px;
+	padding: 30px; 
+    display:none;
+    background: #FFF;
+    border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;
+    box-shadow: 0px 0px 4px rgba(0,0,0,0.7); -webkit-box-shadow: 0 0 4px rgba(0,0,0,0.7); -moz-box-shadow: 0 0px 4px rgba(0,0,0,0.7);   
+}
+
+#test p { color: #666; text-shadow: none; }
+
+#signup-header { background: url(../img/hd-bg.png); padding: 18px 18px 14px 18px; border-bottom: 1px solid #CCC; border-top-left-radius: 5px; -moz-border-radius-topleft: 5px; -webkit-border-top-left-radius: 5px; border-top-right-radius: 5px; -moz-border-radius-topright: 5px; -webkit-border-top-right-radius: 5px; }
+
+#signup-header  h2 { color: #444; font-size: 2em; font-weight: 700; margin-bottom: 3px; text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.5); margin-top:0px;}
+#signup-header  p { color: #444; font-size: 1em; margin: 0; text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.5); text-shadow: none; }
+
+#signup .txt-fld { position: relative; width: 364px; padding: 14px 20px; border-bottom: 1px solid #EEE; text-align: right; }
+#signup .btn-fld { width: 254px; overflow: hidden; padding: 12px 20px 12px 130px; }
+
+#signup .txt-fld label { display: block; float: left; padding-top: 8px; color: #222; font-size: 1.3em; text-align: left;}
+#signup .txt-fld input { width: 244px; padding: 8px; border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; font-size: 1.2em; color: #222; background: #F7F7F7; font-family: "Helvetica Neue"; outline: none; border-top: 1px solid #CCC; border-left: 1px solid #CCC; border-right: 1px solid #E7E6E6; border-bottom: 1px solid #E7E6E6; padding-left: 45px; }
+#signup .txt-fld input.good_input { background: #DEF5E1 url(../img/good.png) 236px center no-repeat; }
+#signup .txt-fld input.error_input { background: #FDE0E0; }
+
+.intl-tel-input .country-list .country{text-align: left!important;}
+
+.notice{padding: 0.5em 2em;}
+.notice span{font-weight: 700;}
+.error{background: rgba(255,0,0,0.1); border-bottom: 3px solid rgba(255,0,0,1);}
+
+ul.item-list{margin: 0px; padding: 0px; list-style-type: none;}
+ul.item-list li a{color: black; text-decoration: none; display: block; padding: 5px 0px; border-bottom: 1px solid;}
+ul.item-list li a:hover{background: #E8E8EE;}
+
+
+@media (max-width: 920px){
+	body{
+		padding: 0em;
+	}
+	.container{
+		min-height: calc(100vh);
+	}
+}
